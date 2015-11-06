@@ -1,0 +1,187 @@
+header {
+    height: 700px;
+}
+
+
+.horizontalRule {
+    margin: 100px 0;
+}
+
+.horizontalRuleShort {
+    text-align: center;
+    width: 40px;
+}
+
+.center {
+    text-align: center;
+}
+
+.input {
+    height: 40px;
+    width:400px;
+}
+
+.search {
+    height: 46px;
+    width: 100px;
+    margin-left: -5px;
+    background-color: skyblue;
+}
+
+.content {
+    background-color: mintcream;
+}
+
+.topBar {
+    width:60%;
+    margin: 0 auto;
+}
+
+.logo {
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    border-style: none;
+}
+
+.topButtonGroup {
+    float: right;
+}
+
+.topButton {
+    background-color: transparent;
+    color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 15%;
+    border-style: solid;
+}
+
+.title {
+    position: relative;
+    top: 200px;
+}
+
+.ul0 {
+    width: 60%;
+    margin: auto;
+    background-color: mintcream;
+}
+
+.li0 {
+    display: inline-block;
+    list-style-type: none;
+    width: 20%;
+}
+
+.table1 {
+    width: 60%;
+    height: 100px;
+    margin: auto;
+    position: relative;
+    top: -50px;
+    background-color: mintcream;
+}
+
+.tableText1 {
+    text-align: center;
+}
+
+.ul1 {
+    width: 70%;
+    margin: auto;
+}
+
+.li1 {
+    display: inline-block;
+    list-style-type: none;
+    width: 33%;
+}
+
+.text1 {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.ul2 {
+    width: 70%;
+    margin: auto;
+}
+
+.li2 {
+    display: inline-block;
+    list-style-type: none;
+    width: 49%;
+}
+
+.text2 {
+    width: 80%;
+}
+
+.img2 {
+    float: left;
+    width: 10%;
+}
+
+.p2 {
+    margin-left: 20%;
+    width: 80%;
+}
+
+.button3On {
+    background-color: darkslateblue;
+    color: white;
+    width: 10%;
+    height: 40px;
+    border-style: groove;
+}
+
+.button3Off {
+    background-color: transparent;
+    color: grey;
+    width: 10%;
+    height: 40px;
+    border-style: groove;
+}
+
+.quoting {
+    font-size: 50px;
+}
+
+.faceGroup {
+    padding: 50px 0;
+}
+
+.face {
+    width: 80px;
+    margin: 0 25px;
+    border-radius: 50%;
+}
+
+.bottomBar {
+    background-color: white;
+    height: 50px;
+}
+
+.bottomForm {
+    margin: 80px 0;
+}
+
+.bottomFormText {
+    font-size: 100%;
+    color: white;
+}
+
+.bottomButton {
+    background-color: transparent;
+    color: grey;
+    width: 5%;
+    height: 100%;
+    border-style: none;
+    position: relative;
+    left: 10%;
+}
+
+footer {
+    height: 170px;
+}
