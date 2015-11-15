@@ -1,3 +1,12 @@
+.background {
+    background: url("../images/sunset-resized.jpg");
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    z-index: -1;
+}
+
 header {
     height: 700px;
 }
@@ -17,19 +26,25 @@ header {
 }
 
 .input {
-    height: 40px;
-    width:400px;
+    height: 47px;
+    width: 400px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .search {
-    height: 46px;
+    height: 50px;
     width: 100px;
     margin-left: -5px;
     background-color: skyblue;
+    color: white;
+    font-family: arial;
+    font-size: 15px;
+    border: none;
 }
 
 .content {
-    background-color: mintcream;
+    background-color: #f4f3f1;
 }
 
 .topBar {
@@ -60,18 +75,30 @@ header {
 .title {
     position: relative;
     top: 200px;
+    color: white;
+    font-family: arial;
+
 }
 
 .ul0 {
     width: 60%;
     margin: auto;
-    background-color: mintcream;
+    background-color: #f4f3f1;
+    border: 1px solid #DDDDDD;
+    position: relative;
+    top: -50px;
 }
 
 .li0 {
+    width: 23%;
     display: inline-block;
+    line-height: 35px;
     list-style-type: none;
-    width: 20%;
+    text-align: center;
+}
+
+.right-border {
+    border-right:1px solid #DDDDDD;
 }
 
 .table1 {
@@ -95,7 +122,7 @@ header {
 .li1 {
     display: inline-block;
     list-style-type: none;
-    width: 33%;
+    width: 32%;
 }
 
 .text1 {
@@ -158,6 +185,16 @@ header {
     border-radius: 50%;
 }
 
+.footerBackground {
+    background: url("../images/sunset-resized.jpg");
+    background-size: cover;
+    background-position: 0px;
+    width: 100%;
+    min-height: 100%;
+    padding: 110px 0px;
+    text-align: center;
+}
+
 .bottomBar {
     background-color: white;
     height: 50px;
@@ -170,6 +207,8 @@ header {
 .bottomFormText {
     font-size: 100%;
     color: white;
+    display: inline-block;
+    font-family: arial;
 }
 
 .bottomButton {

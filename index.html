@@ -14,8 +14,9 @@
 </style>
 </head>
 
-<body background="images/sunset-resized.jpg">
+<body>
 	<header>
+		<div class="background"></div>
 		<div class="topBar">
 			<input class="logo" type="button" value="LOGO">
 			<div class="topButtonGroup">
@@ -37,21 +38,13 @@
 <div class="content">
 
 	<div>
-		<!--<ul class="ul0">
-			<li class="li0"><p class="tableText"><strong>20,000</strong></p><p class="tableText">Agents</p></li>
-			<li class="li0"><p class="tableText"><strong>1,723,000</strong></p><p class="tableText">Transactions</p></li>
-			<li class="li0"><p class="tableText"><strong>17,000</strong></p><p class="tableText">Agencies</p></li>
+		<ul class="ul0">
+			<li class="li0 right-border"><p class="tableText"><strong>20,000</strong></p><p class="tableText">Agents</p></li>
+			<li class="li0 right-border"><p class="tableText"><strong>1,723,000</strong></p><p class="tableText">Transactions</p></li>
+			<li class="li0 right-border"><p class="tableText"><strong>17,000</strong></p><p class="tableText">Agencies</p></li>
 			<li class="li0"><p class="tableText"><strong>10,200</strong></p><p class="tableText">Suburbs</p></li>
-		</ul>-->
+		</ul>
 
-		<table class="table1" border="all" >
-			<tr>
-				<td><p class="tableText1"><strong>20,000</strong></p><p class="tableText1">Agents</p></td>
-				<td><p class="tableText1"><strong>1,723,000</strong></p><p class="tableText1">Transactions</p></td>
-				<td><p class="tableText1"><strong>17,000</strong></p><p class="tableText1">Agencies</p></td>
-				<td><p class="tableText1"><strong>10,200</strong></p><p class="tableText1">Suburbs</p></td>
-			</tr>
-		</table>
 	</div>
 
 	<div>
@@ -140,12 +133,15 @@
 
 </div>
 
+
 	<footer>
-		<form class="center bottomForm">
-			<span class="bottomFormText">Find an Agent</span>
-			<input class="input" placeholder="Enter Suburb">
-			<input class="search" type="button" value="SEARCH">
-		</form>
+		<div class="footerBackground">
+			<div class="center bottomForm">
+				<h3 class="bottomFormText">Find an Agent</h3>
+				<input class="input" placeholder="Enter Suburb">
+				<input class="search" type="button" value="SEARCH">
+			</div>
+		</div>
 		<div class="bottomBar">
 			<input class="bottomButton" type="button" value="Blog">
 			<input class="bottomButton" type="button" value="Contact Us">
